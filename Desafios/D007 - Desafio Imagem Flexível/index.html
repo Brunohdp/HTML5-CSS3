@@ -10,6 +10,10 @@
 <body>
     <h1>Desafio 07 - Imagem Flexível</h1>
     <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar melhor a experiência &#x1F92F</p>
-    <img src="Imagens/paisagem-p.png" alt="Paisagem pequena">
+    <picture>
+        <source media="(max-width: 790px)" srcset="Imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="Imagens/paisagem-m.png" type="image/png">
+        <img src="Imagens/paisagem-g.png" alt="Paisagem grande">
+    </picture>
 </body>
 </html>
