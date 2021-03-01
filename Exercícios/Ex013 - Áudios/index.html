@@ -10,5 +10,15 @@
 <body>
     <h1>Trabalhando com Áudios</h1>
     <hr>
+    <h2>Reproduzindo Áudios</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="Áudios/Happy Mistake - RKVC.mp3" controls>Clique aqui para reproduzir</audio>
+    <!-- compatível com os formatos MP3, WAV e OGG-->
+    <audio preload="metadata" controls autoplay>
+        <source src="Áudios/Happy Mistake - RKVC.mp3" type="audio/mpeg">
+        <source src="Áudios/Happy Mistake - RKVC.ogg" type="audio/ogg">
+        <source src="Áudios/Happy Mistake - RKVC.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="Áudios/Happy Mistake - RKVC.mp3">Clique aqui para baixar o arquivo mp3!</a></p>
+    </audio>
 </body>
 </html>
