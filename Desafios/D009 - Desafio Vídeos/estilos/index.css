@@ -6,8 +6,11 @@ h1{
 img{
     width: 20em;
 }
+img.voltar{
+    width: 25px;
+}
 body{
     background-color: black;
-    background-position-x: right;
+    background-position-x: center;
     padding: 5x;
 }
